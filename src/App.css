@@ -46,26 +46,29 @@
   .showDataStyle{
     gap: 10px;
     height: 50px;
-    width: 250px;
+  width : 390px;
     border: 1px solid black;
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin: 5px;
     font-weight: bolder;
     font-family: cursive;
-   background-color: #ff00bf;
+   background-color: #ff00bf0e;
+   padding: 0px;
+   word-wrap:break-word;
+
   }
   
   #flex{
-    width: 520px;
+    width: 850px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color:#00bfff;
+    background-color:#00f7ff;
    
     
     position: absolute;
-    bottom: 10%;
-    left: 30%;
+    top: 70%;
+    left: 26%;
   }
   
   
