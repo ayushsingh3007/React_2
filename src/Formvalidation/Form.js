@@ -51,7 +51,7 @@ import React, {useState} from "react";
                 const {id,naming,section,numeric}=currEle;
                 return(
                   <div className="showDataStyle" key={id}>
-                    <p>{naming}||{section}||{numeric}</p>
+                    <p>Name:{naming}||Department:{section}||Ratting:{numeric}</p>
                     
                   </div>
                 )
